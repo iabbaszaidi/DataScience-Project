@@ -1,0 +1,43 @@
+# .gitignore for DataScience Projects workspace
+# Adjust entries to suit which data/binaries you want tracked vs ignored.
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data / binary files (uncomment or remove entries if you want to track some)
+*.pbix
+*.zip
+*.mov
+*.heic
+*.xlsx
+*.xls
+*.xlsm
+*.pkl
+*.parquet
+*.h5
+*.hdf5
+
+# Logs
+*.log
+
+# Misc
+*.exe
+*.dll
